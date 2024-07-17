@@ -12,7 +12,7 @@ public:
       
         while (current < right) { // go till end
             if (nums[current] == 0) {
-                swap(nums[++left], nums[current++]);
+                swap(nums[++left], nums[current++]); // swap left+1 and current, then increment current
             } else if (nums[current] == 2) {
 
                 swap(nums[--right], nums[current]);
